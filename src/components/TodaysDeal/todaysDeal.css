@@ -1,5 +1,5 @@
 .title {
-  margin: 45px 40px 30px 40px;
+  margin: 59px 40px 40px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -35,9 +35,20 @@
   display: flex;
   overflow-x: auto;
   margin-left: 40px;
-  margin-right: 0;
+  margin-bottom: 59px;
 }
 
 .deal-cards::-webkit-scrollbar {
-  visibility: hidden;
+  display: none;
+}
+
+@media only screen and (max-width: 400px){
+
+  .title .todaysdeal {
+    font-size: 18px;
+  }
+
+  .endsin span{
+    font-size: 12px;
+  }
 }

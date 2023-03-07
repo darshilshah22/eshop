@@ -1,17 +1,14 @@
 import React from "react";
 import "./category.css";
-import map from "lodash/map";
-import range from "lodash/range";
-import cates from "../../constants.js"
 
-const Category = () => {
+const Category = ({cates}) => {
   return (
     <div className="category">
       <div className="brand_title">
         <p>Choice Category</p>
       </div>
       <div className="brands_row">
-        {cates.map((cat, index) => (
+        {cates?.map((cat) => (
           <div className="brands">
             <img src={cat.icon} alt="" />
             <p>{cat.title}</p>
