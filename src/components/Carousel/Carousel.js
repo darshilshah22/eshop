@@ -131,8 +131,6 @@ const Carousel = () => {
           <p>Quick support</p>
         </div>
       </div>
-
-      <hr />
     </div>
   );
 };

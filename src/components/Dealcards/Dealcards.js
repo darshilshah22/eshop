@@ -10,8 +10,11 @@ const Dealcards = () => {
           HP 14s, 11th Gen Intel Core i3-1115G4, 8GB RAM/....
         </p>
         <div className="price-sec">
-          <h5>₹263,994.00</h5>
-          <img src="../assets/star.png" alt="" />
+          <h5>₹59,990</h5>
+          <span className="rating">
+            <img src="../assets/star.png" alt="" />
+            <p>4.9</p>
+          </span>
         </div>
       </div>
     </div>
