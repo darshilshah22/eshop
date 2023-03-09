@@ -15,7 +15,7 @@
   display: flex;
   gap: 50px;
   overflow-x: auto;
-  margin: 0 40px;
+  padding: 0 40px;
 }
 
 .brands_row::-webkit-scrollbar {
