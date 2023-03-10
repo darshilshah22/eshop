@@ -1,8 +1,8 @@
 import React from "react";
-import Dealcards from "../components/Dealcards/Dealcards";
-import Filters from "../components/Filters/Filters";
-import SearchBar from "../components/SearchBar/SearchBar";
-import BookData from "../Data.json";
+import Dealcards from "../../components/Dealcards/Dealcards";
+import Filters from "../../components/Filters/Filters";
+import SearchBar from "../../components/SearchBar/SearchBar";
+import BookData from "../../Data.json";
 import "./products.css";
 import map from "lodash/map";
 import range from "lodash/range";

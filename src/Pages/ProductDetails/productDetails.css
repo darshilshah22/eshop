@@ -1,0 +1,25 @@
+.pd {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f2f4f7;
+  margin: 0;
+  padding: 0;
+}
+
+.pd_big-img img {
+  width: 493px;
+  height: 474px;   
+  margin: 32px 32px 24px 24px;
+  padding: 0;
+}
+
+.pd_small-img {
+  display: flex;
+  gap: 24px;
+  margin-left: 24px;
+}
+
+.pd_small-img img {
+  width: 149px;
+  height: 107px;
+}
