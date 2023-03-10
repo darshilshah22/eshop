@@ -1,4 +1,6 @@
 import React from "react";
+import DeliveryPackage from "../../components/DeliveryPackage/DeliveryPackage";
+import ProductInfo from "../../components/ProductInfo/ProductInfo";
 import "./productDetails.css";
 
 const ProductDetails = () => {
@@ -14,6 +16,8 @@ const ProductDetails = () => {
           <img src="../assets/productDetails/laptop3.png" alt="" />
         </div>
       </div>
+      <ProductInfo />
+      <DeliveryPackage />
     </div>
   );
 };
