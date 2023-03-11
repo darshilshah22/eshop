@@ -1,3 +1,8 @@
-.form-check-input ::before {
-    background-color: darkorange;
+input[type="radio"]{
+    border: 2px solid #52057B;
+}
+
+input[type="radio"]:checked{
+    border: 2px solid #52057B;
+    background-color: #52057B;
 }

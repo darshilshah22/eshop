@@ -5,7 +5,34 @@ import "./productDetails.css";
 
 const ProductDetails = () => {
   return (
-    <div className="pd">
+    <div className="row w-100">
+      <div className="col mx-4 my-5">
+        <img src="../assets/productDetails/laptop.png" alt="" className="w-100" />
+        <div className="row mt-4">
+          <div className="col-sm">
+            <img src="../assets/productDetails/laptop1.png" alt="" className="w-100"/>
+          </div>
+          <div className="col-sm">
+            <img src="../assets/productDetails/laptop2.png" alt="" className="w-100"/>
+          </div>
+          <div className="col-sm">
+            <img src="../assets/productDetails/laptop3.png" alt="" className="w-100"/>
+          </div>
+        </div>
+      </div>
+      <div className="col my-5">
+        <ProductInfo />
+      </div>
+      <div className="col">
+        <DeliveryPackage />
+      </div>
+    </div>
+  );
+};
+
+export default ProductDetails;
+
+{/* <div className="pd">
       <div className="pd_img">
         <div className="pd_big-img">
           <img src="../assets/productDetails/laptop.png" alt="" />
@@ -18,8 +45,4 @@ const ProductDetails = () => {
       </div>
       <ProductInfo />
       <DeliveryPackage />
-    </div>
-  );
-};
-
-export default ProductDetails;
+    </div> */}
