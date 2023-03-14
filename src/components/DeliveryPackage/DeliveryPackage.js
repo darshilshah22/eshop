@@ -3,7 +3,7 @@ import "./deliveryPackage.css";
 
 const DeliveryPackage = () => {
     return (
-        <div className="conatiner bg-light my-5 mx-5 pb-3 border rounded-2">
+        <div className="conatiner bg-light my-4 mx-auto pb-3 border rounded-2">
             <h5 className='mx-3 my-3'>Choose Delivery package</h5>
             <div class="form-check mx-3 d-flex flex-row">
                 <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />

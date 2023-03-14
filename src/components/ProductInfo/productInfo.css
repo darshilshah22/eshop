@@ -1,7 +1,6 @@
 .product_info p {
     font-size: 24px;
     font-weight: 600;
-    margin-right: 46px;
 }
 
 .rating_info {
@@ -36,7 +35,7 @@
     border-width: 1px 0px;
     border-style: solid;
     border-color: #E2E2E2;
-    margin: 24px 46px 0 0;
+    margin: 24px 0 0 0;
     align-items: center;
     justify-content: space-between;
 }
@@ -63,7 +62,7 @@
     display: flex;
     padding: 20px 0;
     border-bottom: 1px solid #E2E2E2;
-    margin: 0 46px 0 0;
+    margin: 0 0 0 0;
     align-items: center;
     justify-content: space-between;
 }
@@ -93,7 +92,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 46px 0 0;
+    margin: 0;
     gap: 16px;
 }
 
@@ -103,7 +102,6 @@
     border-radius: 8px;
     color: white;
     padding: 16px 0;
-    align-self: stretch;
     border: none;
     margin: 24px 0;
 }
