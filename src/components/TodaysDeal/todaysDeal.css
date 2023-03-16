@@ -1,5 +1,5 @@
 .title {
-  margin: 59px 40px 40px 40px;
+  margin: 59px 40px 20px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -34,8 +34,7 @@
 .deal-cards {
   display: flex;
   overflow-x: auto;
-  margin-left: 40px;
-  margin-bottom: 59px;
+  padding-left: 40px;
   gap: 32px;
 }
 

@@ -7,9 +7,9 @@ import ProductDetails from "./Pages/ProductDetails/ProductDetails"
 function App() {
   return (
     <>
-      {/* <Home /> */}
+      <Home />
       {/* <Products /> */}
-      <ProductDetails />
+      {/* <ProductDetails /> */}
     </>
   );
 }

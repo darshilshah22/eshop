@@ -3,7 +3,7 @@ import { data } from "../constants";
 
 const Description = () => {
   return (
-    <div className="bg-light border border-secondary-subtle rounded mx-4 my-4 px-4 py-4">
+    <div className="bg-light border border-secondary-subtle rounded ms-4 my-4 px-4 py-4">
       <p className="fw-semibold fs-6">Description</p>
       {data.features.map((f) => (
         <div className="row">

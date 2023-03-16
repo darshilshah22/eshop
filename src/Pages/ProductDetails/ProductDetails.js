@@ -4,6 +4,9 @@ import ProductInfo from "../../components/ProductInfo/ProductInfo";
 import Description from "../../components/Description/Description";
 import "./productDetails.css";
 import ProductReview from "../../components/ProductReview/ProductReview";
+import Dealcards from "../../components/Dealcards/Dealcards";
+import map from "lodash/map";
+import range from "lodash/range";
 
 const ProductDetails = () => {
   return (
@@ -46,8 +49,24 @@ const ProductDetails = () => {
           <DeliveryPackage />
         </div>
       </div>
-      <Description />
-      <ProductReview />
+      <div className="row">
+        <div className="col-lg-9">
+          <Description />
+          <ProductReview />
+        </div>
+        <div className="d-flex flex-column w-25 mt-4 gap-4 col-lg-3">
+          {map(range(5), (_) => (
+            <Dealcards
+              deall={{
+                icon: "../assets/camera.png",
+                title: "Canon EOS 1500D 24.1 Digital SLR Camera (Black)...",
+                price: "₹36,990",
+                ratings: "4.9",
+              }}
+            />
+          ))}
+        </div>
+      </div>
     </>
   );
 };

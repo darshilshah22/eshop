@@ -71,7 +71,7 @@ const TodaysDeal = ({ title, isEnd, deals }) => {
       <div className="deal-cards">
         {deals?.map((deal) => (
           <Dealcards deall={deal} />
-        ))};
+        ))}
       </div>
     </>
   );
